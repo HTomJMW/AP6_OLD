@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{9B452A52081470E3}Prefabs/Characters/AP6/RHS/Default_RUSSIA_Player.et" {
+ ID "5242B7AE8EF4D733"
+ components {
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "RUSSIA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Machinegunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_aAutoLabels {
+     122 43
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{60F6B83ED4C13CC3}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B83ED3FB7538}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2C84EF274C972456}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_1pn93.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5ED519BE78FF2BBE}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{5ED519BE771B5ECB}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5ED519BE77D6E1A1}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5ED519BE5A94F8B0}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et" "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et" "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et" "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5ED519BE5B4BF6C1}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5ED519BE51FACA87}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

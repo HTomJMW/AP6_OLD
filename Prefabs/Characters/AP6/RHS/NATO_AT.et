@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{8B567897680EB9FA}Prefabs/Characters/AP6/RHS/Default_NATO_Player.et" {
+ ID "5242B7AE16596FB8"
+ components {
+  FactionAffiliationComponent "{520EC961FB0A2E90}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Anti-Tank"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    m_aAutoLabels {
+     122 40
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2C367D173B99BCC}Prefabs/Weapons/Rifles/M4A1/Rifle_M4_RAS.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DF5E987AB3924A0A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_c.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+     PrefabsToSpawn + {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" ""
+     }
+    }
+   }
+  }
+ }
+}

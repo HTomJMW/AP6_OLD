@@ -1,0 +1,18 @@
+ImageSetClass {
+ RefSize 256 256
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 256 256
+   path "{DED5B9E93884E3A3}UI/Textures/marker.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass AP6_Marker {
+   Name "AP6_Marker"
+   Pos 0 0
+   Size 256 256
+   Flags 0
+  }
+ }
+}

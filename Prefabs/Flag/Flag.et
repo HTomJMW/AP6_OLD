@@ -1,0 +1,55 @@
+SCR_AP6_Flag {
+ ID "628325B54C74BBFB"
+ components {
+  MeshObject "{628325B2527238C2}" {
+   Object "{C41BFB78E6FFFBCB}Assets/Structures/Military/Flags/FlagPole_01/FlagPole_01.xob"
+  }
+  RigidBody "{628325B25001E0B1}" {
+   ResponseIndex "LargeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_FlagComponent "{628325B275D24F44}" {
+  }
+  SCR_MapDescriptorComponent "{628AB6F239700878}" {
+   MainType "Icon (generic)"
+  }
+  SlotManagerComponent "{628325B2556427B6}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Offset -0.01 5.3 -0.18
+     Angles 0 -42 0
+     Prefab "{B85D81962A3F85BA}Prefabs/Props/Fabric/Flags/Flag_1_2_Everon_01.et"
+    }
+    EntitySlotInfo SpawnPoint {
+     Prefab "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{628325B27ECAC8F5}" {
+   ActionContexts {
+    UserActionContext "{628325BCB5FBB46B}" {
+     ContextName "FlagContext"
+     Position PointInfo "{628325BC9487C54D}" {
+      Offset 0 1.3 0
+     }
+     Radius 2
+     Height 3
+    }
+   }
+   additionalActions {
+    SCR_AP6_TakeFlagAction "{628325BCAA21E37C}" {
+     ParentContextList {
+      "FlagContext"
+     }
+     VisibilityRange 1.5
+     Duration 15
+    }
+   }
+  }
+  RplComponent "{628325B20116633F}" {
+  }
+  Hierarchy "{628325B2042CD55D}" {
+  }
+ }
+}
